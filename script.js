@@ -3,13 +3,13 @@ let contentGridElement = document.getElementById('contentGrid');
 let myJSON =[
   {
     "username" : "cc",
-    "picture_url" : "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+    "picture_url" : "1.jpg",
     "location" : "Brooklyn NY",
     "tags liked" : ["cats","photography"]
   },
   {
     "username" : "random",
-    "picture_url" : "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+    "picture_url" : "2.jpg",
     "location" : "Boston MA",
     "tags liked" : ["food","sports"]
   },
