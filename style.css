@@ -1,8 +1,7 @@
 body, html {
   margin: 0px;
   padding: 0 5vmin 0 5vmin;
-  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misc9-kut7478.jpg?w=1000&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c3fc0aa773d3504e74eef2d0022645d7");
-  background-size: cover;
+  background-color: #ebebeb;
   color: #89ABE3FF;
   font-family: 'Gotu', sans-serif;
 }
@@ -11,19 +10,16 @@ body * {
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 8vmin;
-  padding-left: 35%;
+.search {
+  font-size: 5vmin;
+  padding-top: 20px;
+
 }
 
-h2{
-  padding-left:40%;
-  font-size: 3vmin;
-}
 
 #contentGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1vmin;
   grid-row-gap: 1vmin;
   padding: 2vmin;
@@ -35,6 +31,10 @@ h2{
   font-weight: bold;
 }
 
+.input{
+  color: #89ABE3FF;
+  font-family: 'Gotu', sans-serif;
+}
 
 .contentItem {
   display: flex;
@@ -42,18 +42,18 @@ h2{
   padding: 1vmin;
   border: 2px solid #89ABE3FF;
   border-radius: 0.25vmin;
-  height: 100%;
 }
 
 .contentItem h4{
-  padding-left: 30%;
+  font-size: 15px;
 }
 
 .contentItem p{
-  font-size: 3vmin;
+  font-size: 15px;
 }
 
-..ImageContainer{
+.ImageContainer{
+  padding-left: 20%;
   border-radius: 0.2vmin;
   width: 25vmin;
   height: 25vmin;
@@ -63,3 +63,17 @@ h2{
 .ImageContainer img {
   width: 100%;
   border-radius: 0.25vmin;
+}
+
+
+.buttons{
+  border-radius: 40vmin;
+  color: black;
+  text-align: center;
+  font-size: 2vmin;
+  cursor: pointer;
+  width: 9vmin;
+  height: 9vmin;
+  position: relative;
+  right: 0;
+}
